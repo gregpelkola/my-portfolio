@@ -17,7 +17,7 @@ p {
     font-size: 24px;
 }
 
-/*put classes in proper order so they would follow proper semantics*/ 
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
