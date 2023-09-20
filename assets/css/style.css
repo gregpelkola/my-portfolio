@@ -130,7 +130,7 @@ content {
     color:var(--white);
 }
 
-.projects h3 {
+.futureprojects h3 {
     margin-bottom: 20px;
     font-size: 24px;
     color:var(--white);
@@ -139,7 +139,7 @@ content {
 .contact-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    color:#ffffff;
+    color:var(--white);
 }
 
 .footer {
@@ -154,7 +154,7 @@ content {
 .card {
     width: 49%;
     height: 150px;
-    border: 4px solid var(--black);
+    border: 4px solid var(--white);
     margin: 10px 0px 10px 0px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
