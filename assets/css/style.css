@@ -4,16 +4,18 @@
     margin: 0;
 }
 
+/* applies var to use for font color and background color*/
 :root {
     --white: #ffffff;
     --black: #000000;
 }
 
+/* applies a scroll behavior*/
 html {
     scroll-behavior: smooth;
 }
 
-
+/* styles the body section by applying colors and flex*/
 body {
     background-color: var(--black);
     color: var(--white);
@@ -22,15 +24,18 @@ body {
     align-items: center;
 }
 
+/*applies font color to a tag*/
 a {
     color: var(--white);
     text-decoration: none;
 }
 
+/*creates font size for all p tags*/
 p {
-    font-size: 24px;
+    font-size: 36px;
 }
 
+/* creates rows for row class example project cards*/
 .row {
     display: flex;
     width: 100%;
@@ -39,6 +44,7 @@ p {
     gap: 10px;
 }
 
+/* creates padding around header and adds flex*/
 .header {
     display: flex;
     width: 100vw;
@@ -49,6 +55,7 @@ p {
 
 }
 
+/*styles the header nav links*/
 .header nav ul {
     list-style-type: none;
     display: flex;
@@ -56,167 +63,14 @@ p {
     gap: 10px;
 }
 
+/*adds flex to about me section*/
 .about-me {
     align-self: flex-start;
     width: 100vw;
     padding-left: 16%;
 }
- 
 
-
-/*section h2 {
-     border-right-style: solid;
-     border-color: var(--black);
-     border-width: 5px;
-     min-width: 300px;
-     font-size: 32px;
-     text-align: right;
-     padding: 10px 15px 30px;
-     margin: 10px 20px;
-     color: var(--black);
-}
-
-
-.header {
-    padding: 20px 0px 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--black);
-    color: var(--white);
-    display: flex;
-    justify-content: space-between
-    
-}
-
-.header h1 {
-    align-self: center;
-    font-size: 48px;
-    margin-left: 5%;
-}
-
-.header h2 {
-    align-self: center;
-    font-size: 36px;
-    margin-left: 5%;
-
-}
-
-
- .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    
-}
-
-
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    text-decoration: underline;
-}
-
-
-.hero {
-    height: 100px;
-    width: 100%;
-    margin-bottom: 100px;
-    background-image: url("../img/blankprofile.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.about-me {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.contact-me {
-     flex-wrap: wrap;
-     margin-right: 25px;
-}
-
-.about-me h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    color:var(--white);
-}
-
-.projects h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    color:var(--white);
-}
-
-.contact-me h2 {
-    margin-bottom: 20px;
-    margin-left: 5%;
-    font-size: 36px;
-    color:var(--white);
-}
-
-.futureprojects h3 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color:var(--white);
-}
-
-.footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
-}
-
-.footer h2 {
-    font-size: 36px;
-}
-
-.card {
-    display: flex;
-    flex-direction: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-
-#project-2 {
-     background-size: cover;
-     background-position: center;
-     height: 100%;
-}
-
-#project-3 {
-     background-size: cover;
-     background-position: center;
-     height: 100%;
-    
-}
-
-#project-4 {
-     background-size: cover;
-     background-position: center;
-     height: 100%;
-}
-
-
+/*adjusts to size of device for accessibility*/
 @media screen and (max-width: 992px) {
     ul li {
         display: block;
@@ -228,40 +82,26 @@ p {
         flex-direction: column;
     }
 
-    section h2 {
-        background-color: var(--black);
-        text-align: center;
-        margin: 0px 0px;
-        border-bottom-style: solid;
-    }
-
-    .hero {
-        height: 150px;
-        margin-bottom: 0px;
-    }
 }
 
-    @media screen and (max-width: 768px) {
-        header {
-            flex-direction: column;
-            align-items: center;
-        }
+ @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
     
-        header nav {
-            padding-top: 15px;
-            margin-right: 0%;
-        }
+    header nav {
+        padding-top: 15px;
+        margin-right: 0%;
+    }
     
-        ul li {
-            font-size: 12px;
-            margin: 5px 0px;
-            text-align: center;
-        }
-    
-       
-        .card {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-} */
+    ul li {
+        font-size: 12px;
+        margin: 5px 0px;
+        text-align: center;
+    }
+   
+} 
+ 
+
+
