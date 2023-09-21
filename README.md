@@ -5,9 +5,20 @@
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?
+
+  To create a portfolio to use in my future job search.
+  
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+
+  To learn about the different css functions and design my portfolio for future job searches.
+  
 - What problem does it solve?
+
+   It helped me develop a better understanding of how css and html can work together to make something to solve a problem or idea.
+  
 - What did you learn?
+
+  How classes in css function with integration to the html code, how to make a website from scratch and how to better understand css.
 
 ## Table of Contents (Optional)
 
@@ -20,13 +31,20 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Clone the repository from GitHub, then create directory you would like to store the cloned repository in. 
 
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
 
+Open the style.css and index.html files in VSCode or your prefered IDE to see the css elements and html layout. Open index.html in live server to view the webpage. You can then interact with the different header links, project cards to see my previous work. Then you can open the inspect tool by Right Click - Inspect or F12 on Windows to see the html and css code, you can then use the select cusor tool to view different elements on the page and see that specific elements code and style in css.
+
+
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+![alt text](assets/img/portfolioscreenshot.png)
+
+Live link- https://gregpelkola.github.io/my-portfolio/
 
     ```md
     ![alt text](assets/images/screenshot.png)
@@ -35,11 +53,13 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
+NA
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+NA
 
 If you followed tutorials, include links to those here as well.
-
+NA
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
