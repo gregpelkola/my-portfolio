@@ -31,9 +31,9 @@ p {
 content {
     display: flex;
     flex-direction: column;
- }
+}
  
- section h2 {
+section h2 {
      border-right-style: solid;
      border-color: var(--black);
      border-width: 5px;
@@ -43,7 +43,7 @@ content {
      padding: 10px 15px 30px;
      margin: 10px 20px;
      color: var(--black);
- }
+}
 
 
 .header {
@@ -61,7 +61,14 @@ content {
     font-size: 48px;
     margin-left: 5%;
 }
-    
+
+.header h2 {
+    align-self: center;
+    font-size: 36px;
+    margin-left: 5%;
+
+}
+
 
  .header nav {
     padding-top: 15px;
@@ -82,11 +89,12 @@ content {
     text-decoration: underline;
 }
 
+
 .hero {
     height: 100px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("");
+    margin-bottom: 100px;
+    background-image: url("../img/blankprofile.png");
     background-size: cover;
     background-position: center;
 }
@@ -113,9 +121,9 @@ content {
 }
 
 .contact-me {
-    display: inline-block;
+    
     flex-wrap: wrap;
-    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .about-me h2 {
@@ -130,15 +138,16 @@ content {
     color:var(--white);
 }
 
-.futureprojects h3 {
+.contact-me h2 {
     margin-bottom: 20px;
-    font-size: 24px;
+    margin-left: 5%;
+    font-size: 36px;
     color:var(--white);
 }
 
-.contact-me h2 {
+.futureprojects h3 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 24px;
     color:var(--white);
 }
 
